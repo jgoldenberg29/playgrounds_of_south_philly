@@ -1,0 +1,49 @@
+/* Site wide */
+
+@font-face {
+  font-family: 'Signika Negative', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html {
+  font-family: 'Signika Negative', sans-serif;
+  background-color: #D9BDc5;
+  color: #544E61;
+  margin: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* Home Page*/
+
+#main-image {
+  border: solid 5px lightblue;
+  margin: auto;
+  max-height: 400px;
+}
+
+/* Survey */
+
+
