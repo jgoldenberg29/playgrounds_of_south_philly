@@ -47,10 +47,13 @@ h1 {
 
 /* Home Page*/
 
+#main-image-div {
+  display: flex;
+  justify-content: center;
+}
+
 #main-image {
   border: solid 5px rgb(134, 187, 205);
-  margin-left: 244px;
-  margin-right: 244px;
   max-height: 400px;
 }
 
