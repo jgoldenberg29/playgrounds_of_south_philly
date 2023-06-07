@@ -15,6 +15,11 @@ html {
   margin: 30px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -98,12 +103,12 @@ button {
 /* Other playground */
 
 ol {
-  margin-left: 150px
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 li {
   font-size: 30px;
-  margin-left: 100px;
   margin-top: 30px;
 }
 
@@ -148,4 +153,10 @@ li {
   grid-column-start: 3;
   max-width: 400px;
   border: solid 5px rgb(134, 187, 205);
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: auto;
+  }
 }
