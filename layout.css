@@ -18,7 +18,11 @@ html {
 header {
   display: flex;
   justify-content: space-around;
-  font-size: 20px
+  font-size: 20px;
+  border-top: solid 5px rgb(134, 187, 205);
+  border-bottom: solid 5px rgb(134, 187, 205);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 a {
@@ -39,11 +43,109 @@ h1 {
 /* Home Page*/
 
 #main-image {
-  border: solid 5px lightblue;
-  margin: auto;
+  border: solid 5px rgb(134, 187, 205);
+  margin-left: 244px;
+  margin-right: 244px;
   max-height: 400px;
 }
 
 /* Survey */
 
+#main-fieldset {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 5px rgb(134, 187, 205);
+}
 
+#main-legend {
+  margin-left: 75px;
+  font-size: 20px;
+}
+
+.labelAndInput {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+label {
+  align-self: center;
+}
+
+.feature-choice {
+  border: none;
+  margin-top: 8px;
+}
+
+.sub-legend {
+  text-align: center;
+}
+
+.radio-choices {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+button {
+  background-color: lightblue;
+  color: inherit;
+}
+
+/* Other playground */
+
+ol {
+  margin-left: 150px
+}
+
+li {
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+/* Photo Gallery */
+
+.titleRow {
+  display: grid;
+  grid-template: 1fr / 33% 33% 33%;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+#titleRow1 {
+  margin-top: 100px;
+}
+
+.photo-title {
+  justify-self: center;
+  text-decoration: underline;
+}
+
+.imageRow {
+  display: grid;
+  grid-template: 1fr / 33% 33% 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  grid-column-start: 1;
+  max-width: 400px;
+  border: solid 5px rgb(134, 187, 205);
+}
+
+.image2 {
+  grid-column-start: 2;
+  max-width: 400px;
+  border: solid 5px rgb(134, 187, 205);
+}
+
+.image3 {
+  grid-column-start: 3;
+  max-width: 400px;
+  border: solid 5px rgb(134, 187, 205);
+}

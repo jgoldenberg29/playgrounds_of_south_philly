@@ -23,25 +23,25 @@
     <h1>Playground Survey</h1>
 
     <form>
-      <fieldset>
-        <legend>Add Family</legend>
+      <fieldset id="main-fieldset">
+        <legend id="main-legend">Add Family</legend>
 
-        <div>
+        <div class="labelAndInput">
           <label for="firstName">First Name</label>
           <input type="text" id="firstName" name="first_name">
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="lastName">Last Name</label>
           <input type="text" id="lastName" name="last_name">
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="email">Email</label>
           <input type="text" id="email" name="email_address">
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="numberOfChildren">How many children do you have?</label>
           <select id="numberOfChildren" name="how_many_children_do_you_have_?">
             <option value="1">1</option>
@@ -50,7 +50,7 @@
           </select>
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="ageOfFirstChild">Age of First Child</label>
           <select id="ageOfFirstChild" name="age_of_first_child">
             <option value="0-2_yrs">0-2 yrs</option>
@@ -63,21 +63,21 @@
 
         <div>
           <fieldset class="feature-choice">
-            <legend>Child's favorite playground feature</legend>
-            <div>
+            <legend class="sub-legend">Child's favorite playground feature</legend>
+            <div class="radio-choices">
               <label for="featureChoice1">swings</label>
-              <input type="radio" id="featureChoice1" value="swings" name="playground_feature">
+              <input type="radio" id="featureChoice1" value="swings" name="group1">
 
               <label for="featureChoice2">climbing structure</label>
-              <input type="radio" id="featureChoice2" value="climbing_structure" name="playground_feature">
+              <input type="radio" id="featureChoice2" value="climbing_structure" name="group1">
 
               <label for="featureChoice3">water feature</label>
-              <input type="radio" id="featureChoice3" value="water_feature" name="playground_feature">
+              <input type="radio" id="featureChoice3" value="water_feature" name="group1" checked>
             </div>
           </fieldset>
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="ageOfSecondChild">Age of Second Child</label>
           <select id="ageOfSecondChild" name="age_of_second_child">
             <option value="n/a">n/a</option>
@@ -91,21 +91,21 @@
 
         <div>
           <fieldset class="feature-choice">
-            <legend>Child's favorite playground feature</legend>
-            <div>
+            <legend class="sub-legend">Child's favorite playground feature</legend>
+            <div class="radio-choices">
               <label for="featureChoice1">swings</label>
-              <input type="radio" id="featureChoice1" value="swings" name="playground_feature">
+              <input type="radio" id="featureChoice1" value="swings" name="group2">
 
               <label for="featureChoice2">climbing structure</label>
-              <input type="radio" id="featureChoice2" value="climbing_structure" name="playground_feature">
+              <input type="radio" id="featureChoice2" value="climbing_structure" name="group2">
 
               <label for="featureChoice3">water feature</label>
-              <input type="radio" id="featureChoice3" value="water_feature" name="playground_feature">
+              <input type="radio" id="featureChoice3" value="water_feature" name="group2" checked>
             </div>
           </fieldset>
         </div>
 
-        <div>
+        <div class="labelAndInput">
           <label for="otherActivities">Please describe any other activities your children enjoy at the playground</label>
           <textarea id="otherActivities" name="other_activities_at_the_playground"></textarea>
         </div>
